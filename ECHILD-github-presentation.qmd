@@ -1,0 +1,16 @@
+---
+title: "ECHILD: Getting the message out"
+author: "Tony Stone"
+date: last-modified
+date-format: "D MMM YYYY"
+format: 
+  revealjs:
+    logo: logo.png
+    theme: solarized
+---
+
+## ADR UK (funder)
+
+> data linkage programme which enhances, enriches 
+and **makes administrative data more accessible** for research 
+for public good
