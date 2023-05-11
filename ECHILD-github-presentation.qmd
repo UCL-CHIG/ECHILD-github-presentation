@@ -1,5 +1,5 @@
 ---
-title: "ECHILD: Getting the message out"
+title: "ECHILD: A strategy for documentation and external engagement"
 author: "Tony Stone"
 date: last-modified
 date-format: "D MMM YYYY"
@@ -9,8 +9,44 @@ format:
     theme: solarized
 ---
 
-## ADR UK (funder)
+## ADR UK (ECHILD funder)
 
-> data linkage programme which enhances, enriches 
-and **makes administrative data more accessible** for research 
-for public good
+> make administrative data **more accessible** ...
+
+Objectives
+
+*  Champion best practice [in] research-ready data, including **publishing** a guide 
+to its creation and use.
+
+*  Support the FAIR Guiding Principles *(metadata!)*
+
+*  Encourage researchers to develop and **share** research concepts such as 
+derived variables.
+
+*  Encourage researchers to **share** code, **documentation** 
+and **feedback**
+
+## GitHub
+
+> Git is version control. GitHub is more, much more:
+
+*  Project management
+*  Automation
+*  Web hosting (documentation, tutorials, etc.)
+*  Issue tracking
+*  Discussion boards
+
+## A single source of truth
+
+> Distributed but centralised
+
+*  Anyone can access and work on a (public) GitHub project
+*  ... but we can impose centralised checks and reviews before accepting changes
+
+## Difficulties
+
+*  Learning curve
+
+
+
+
