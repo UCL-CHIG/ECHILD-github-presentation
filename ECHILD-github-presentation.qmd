@@ -1,8 +1,9 @@
 ---
-title: "ECHILD: A strategy for documentation and external engagement"
+title: "ECHILD: Proposed documentation and code-sharing strategy"
 author: "Tony Stone"
 date: last-modified
 date-format: "D MMM YYYY"
+bibliography: bibliography.bib
 format: 
   revealjs:
     logo: logo.png
@@ -11,7 +12,7 @@ format:
 
 ## ADR UK (ECHILD funder)
 
-> make administrative data **more accessible** ...
+> make administrative data **more accessible** ... 
 
 Objectives
 
@@ -32,21 +33,78 @@ and **feedback**
 
 *  Project management
 *  Automation
-*  Web hosting (documentation, tutorials, etc.)
+*  Web hosting (searchable documentation, tutorials, etc.)
 *  Issue tracking
 *  Discussion boards
 
-## A single source of truth
+## Documentation: A single source of truth
 
-> Distributed but centralised
+*  Documentation in a single set of text file (a markup language)
+    - multiple output formats (pdf, docx, and html)
+    - automatically published on the web
+    - version controlled (what changed, when, why, who)
+
+**Distributed but centralised**
 
 *  Anyone can access and work on a (public) GitHub project
 *  ... but we can impose centralised checks and reviews before accepting changes
 
-## Difficulties
+## Code sharing
 
-*  Learning curve
+Aim: One centralised collection of all ECHILD analyses, adequately documented 
+and citeable
 
+*  <span style="color: #DC3545">TREs: isolated from wider internet</span>
+*  Can only export "final" analysis code (*bla_final_really-final_v2.do*)
+*  Use templates to encourage adequately documentation of code
+*  Automatically use DOIs to enable citation and track use
+*  Link to impact: demonstration of *improving patient care* and/or 
+*public interest*
 
+*Not perfect but best endeavours*
 
+## Difficulties (1 of 2)
 
+*  Learning:
+    - Git 
+        - *Web UI*
+    - Interacting with GitHub 
+        - *Unavoidable!*
+    - GitHub Actions
+        - *Once set up, should require few mods*
+    - Markup languages 
+        - *Visual editors*
+
+## Difficulties (2 of 2)
+
+*  Getting people (internal and external) to use it
+    - policy, guidance and expectations on sharing code
+    - internal training (UCL 
+    [DSD](https://www.ucl.ac.uk/isd/services/learning-teaching/learning-teaching-services/digital-skills-development) 
+    and 
+    [ARC](https://www.ucl.ac.uk/advanced-research-computing/advanced-research-computing-centre) groups)
+    - signposting to external resources
+    - tutorials / vignettes
+    - templates
+        
+## Examples
+
+*  Ministry of Justice Analytical Services Platform Team
+    - <https://github.com/moj-analytical-services/user-guidance>
+*  OpenSAFELY
+    - <https://github.com/opensafely>
+
+## Feedback
+
+*  Your thoughts
+*  Your input matters
+
+**No system thrives unless it is used!**
+
+## References / Links
+
+*  [@ADR]
+*  [@FAIR]
+*  [@GitHub]
+*  [@DSD]
+*  [@ARC]
